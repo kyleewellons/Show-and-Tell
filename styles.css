@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content-container {
+  border: dotted;
+  height: 100em;
+  width: 100em;
+}
+
+.header-container {
+  color: #000;
+  background-color: #ff0099;
+  height: 10%;
+  width: 100%;
+}
+
+.nav-container {
+  background-color: black;
+  border: dotted;
+  color: #fff;
+  height: 5%;
+}
+
+.main-container {
+  display:flex;
+  flex-wrap: wrap;
+  border: solid;
+  width: 70%;
+  height: 60%;
+}
+
+article {
+  border:solid;
+  height: 100%;
+  width: 25%;
+
+}
+aside {
+  background-color: #000;
+  float:left;
+  width: 30%;
+}
