@@ -1,44 +1,64 @@
 * {
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Raleway', sans-serif;
 }
 
-.content-container {
-  border: dotted;
-  height: 100em;
-  width: 100em;
+body {
+  background-color: skyblue;
 }
 
-.header-container {
-  color: #000;
-  background-color: #ff0099;
-  height: 10%;
+.header {
+  background: #333;
+  height: 80px;
   width: 100%;
 }
 
-.nav-container {
-  background-color: black;
-  border: dotted;
+.nav-bar {
+  /*border: 1px solid #fff;*/
+  float: right;
+  height: 80px;
+  width:1000px;
+
+}
+
+.nav-bar > li {
+  float: left;
+  list-style: none;
+  width: 200px;
+}
+
+li>a {
+  /*display: block;*/
   color: #fff;
-  height: 5%;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  /*font-family: 'Raleway', sans-serif;*/
 }
 
-.main-container {
-  display:flex;
-  flex-wrap: wrap;
-  border: solid;
-  width: 70%;
-  height: 60%;
-}
 
-article {
-  border:solid;
-  height: 100%;
-  width: 25%;
-
-}
 aside {
-  background-color: #000;
+  border: solid;
+  background-image: url(Images/garnet-wink.gif); 
+  background-repeat: no-repeat;
   float:left;
-  width: 30%;
+  height: 25em;
+  width: 100%;
+}
+
+nav {
+  /*border: solid;*/
+  height: 100px;
+}
+
+section {
+  /*border: solid;*/
+  float:right;
+  text-align: left;
+  width: 50%;
+  height: 25em;
+  line-height: 30px;
+ 
 }
