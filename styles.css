@@ -2,50 +2,158 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
   background-color: skyblue;
 }
 
-.header {
-  background: #333;
+
+.header-nav {
+  /*background-image: url(Images/rainbow.gif); */
+  background: #110733;
+  box-shadow: 0px 2px 4px #000;
   height: 80px;
   width: 100%;
 }
 
 .nav-bar {
-  /*border: 1px solid #fff;*/
-  float: right;
-  height: 80px;
-  width:1000px;
-
+  /*float: right;*/
+  /*height: 80px;*/
+  width:100%;
+  padding: .2%;
 }
 
 .nav-bar > li {
+  /*border: solid; */
   float: left;
+  /*height: 20px;*/
   list-style: none;
-  width: 200px;
+  width: 20em;
 }
 
 li>a {
-  /*display: block;*/
+  display: block;
   color: #fff;
   line-height: 80px;
   text-align: center;
   text-decoration: none;
-  /*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Quicksand', sans-serif;
+}
+
+li>a:hover {
+  /*background-color: skyblue;*/
+  background-image: url(Images/rainbow.gif); 
+
+}
+
+li>a:focus {
+  /*background-image: url(Images/rainbow.gif); */
+   background: skyblue;
+  
+  color: #333;
+  
+}
+
+.content-wrapper {
+  border: 1px solid;
+  width: 100em;
 }
 
 
 aside {
-  border: solid;
+  border-top: none;
   background-image: url(Images/garnet-wink.gif); 
   background-repeat: no-repeat;
+  background-position: fixed;
   float:left;
   height: 25em;
+  width: 40em;
+}
+
+nav {
+  border: solid;
+  height: 100px;
+}
+
+section {
+  float:right;
+  text-align: left;
+  width: 50%;
+  height: 25em;
+  line-height: 30px;
+  overflow: none;
+}
+
+.box-container {
+  height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.bottom-boxes {
+  background-color: #110733; 
+  box-shadow: 0px 2px 4px #;
+  color: #ccc;  
+  width: 20%;
+  height: 150px;
+  margin: 5px;
+}
+
+.bottom-boxes:hover {
+  background-image: url(Images/rainbow.gif); 
+
+}
+
+.bottom-boxes:focus {
+  background-color: #110733;
+}
+
+@media screen and (max-width: 1060px) {
+  .nav-bar {
+  /*float: right;*/
+  /*height: 80px;*/
+  width:100%;
+  padding: .2%;
+}
+
+.nav-bar > li {
+  /*border: solid; */
+  float: left;
+  /*height: 20px;*/
+  list-style: none;
+  width: 20em;
+}
+
+li>a {
+  display: block;
+  color: #fff;
+  line-height: 80px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+}
+
+input {
+  margin: 5% 0 0 10%;
+}
+
+
+
+@media screen and (max-width: 1260px;) {
+  .nav-bar {
+  width: 800px;
+  }
+
+  .nav-bar>li {
+    width: 150px; 
+ }
+
 }
 
 nav {
