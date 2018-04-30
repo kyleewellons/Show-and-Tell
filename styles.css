@@ -9,6 +9,7 @@ body {
   background-color: skyblue;
 }
 
+
 .header-nav {
   /*background-image: url(Images/rainbow.gif); */
   background: #110733;
@@ -16,7 +17,6 @@ body {
   height: 80px;
   width: 100%;
 }
-
 
 .nav-bar {
   /*float: right;*/
@@ -154,4 +154,19 @@ input {
     width: 150px; 
  }
 
+}
+
+nav {
+  /*border: solid;*/
+  height: 100px;
+}
+
+section {
+  /*border: solid;*/
+  float:right;
+  text-align: left;
+  width: 50%;
+  height: 25em;
+  line-height: 30px;
+ 
 }
